@@ -7,7 +7,7 @@ import base64
 # Set environment flag of MAX_EXECUTABLE, MAX_DATA_SIZE
 
 
-runtime_version = "google-cloud-function:2.0.3"
+runtime_version = "google-cloud-function:2.0.4"
 app = Flask(__name__)
 
 def get_env(env, flag):
